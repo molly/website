@@ -6,5 +6,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Skeleton, Raphael
+    Bootstrap
+	jQuery-One-Page-Nav
