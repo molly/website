@@ -1,0 +1,73 @@
+.hidden { display: none; }
+
+/* Menu CSS */
+body#home li#homelink,
+body#work li#worklink,
+body#me li#melink,
+body#contact li#contactlink,
+body#blog li#bloglink
+{
+	background: rgb(195, 195, 195); /* Fall-back for browsers that don't support rgba */
+}
+
+#navbox {
+	margin-top: 30px;
+	background: rgb(205, 205, 205); /* Fall-back for browsers that don't support rgba */
+	background: rgba(150, 150, 150, .3);
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.nav a {
+	display: block;
+	padding: 8px 0 8px 0;
+	width: 100%;
+}
+
+.nav a:hover {
+	background: rgb(195, 195, 195); /* Fall-back for browsers that don't support rgba */
+}
+
+/* Home */
+#logo {
+	margin: 15% auto 0 auto;
+	background-image:url('../images/Logo.svg');
+	background-size:800px 233px;
+	width: 800px;
+	height: 233px;
+}
+
+#logosmall {
+	margin: 75px auto 0px auto;
+	display: none;
+}
+
+#bio {
+	margin-top: 10%;
+	text-align: center;
+}
+
+
+#menulogo {
+	margin-top: 22px;
+}
+
+#workinfo, #meinfo, #contactinfo, #bloginfo, #fourohfourtext{
+	margin-top: 30px;
+}
+
+#buttondiv{
+	float: right;
+}
+
+#information {
+	margin-top: 0;
+}
+
+#information li{
+	margin-bottom: 10px;
+}
