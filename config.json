@@ -1,0 +1,29 @@
+{
+  "vars": {},
+  "css": [
+    "type.less",
+    "code.less",
+    "grid.less",
+    "tables.less",
+    "forms.less",
+    "buttons.less",
+    "glyphicons.less",
+    "button-groups.less",
+    "input-groups.less",
+    "navs.less",
+    "navbar.less",
+    "pagination.less",
+    "pager.less",
+    "jumbotron.less",
+    "thumbnails.less",
+    "media.less",
+    "utilities.less",
+    "responsive-utilities.less",
+    "component-animations.less"
+  ],
+  "js": [
+    "affix.js",
+    "scrollspy.js",
+    "transition.js"
+  ]
+}
