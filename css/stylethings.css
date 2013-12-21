@@ -99,6 +99,7 @@ ul.nav.navbar-nav.navbar-right {
 	border: 0px;
 }
 
+.no-js .navbar button.navbar-toggle,
 .nav.navbar .navbar-collapse .navbar-right li.blog a {
 	display: none;
 }
