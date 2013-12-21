@@ -80,8 +80,8 @@ ul.nav.navbar-nav.navbar-right {
 	margin-right: 5px;
 }
 
-@media (max-width: 1050px) {
-	ul.nav.social {
+@media (max-width: 1075px) {
+	ul.nav.social li.icon {
 		display: none;
 	}
 }
@@ -100,12 +100,24 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .no-js .navbar button.navbar-toggle,
-.nav.navbar .navbar-collapse .navbar-right li.blog a {
+.navbar a.blog {
 	display: none;
 }
 
-.no-js .navbar .navbar-right li.blog a{
-	display: block;
+@media (max-width: 879px) {
+	.no-js .navbar a.blog {
+		float: right;
+		display: inline-block;
+		color: rgb(199, 222, 245);
+		padding: 15px 30px;
+		line-height: 20px;
+	}
+	.no-js .navbar a.blog:hover,
+	.no-js .navbar a.blog:focus {
+		color: rgb(170, 189, 209);
+		background-color: rgb(37, 41, 46);   /* fallback */
+		background-color: rgba(0, 0, 0, .1);
+	}
 }
 
 .navbar .icon-bar {
