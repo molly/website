@@ -31,7 +31,6 @@ a:hover, a:focus {
 
 .page {
 	padding: 60px 20px 60px 20px;
-	font-size: 170%;
 }
 
 .page-light {
@@ -72,6 +71,21 @@ a:hover, a:focus {
 	padding-right: 30px;
 }
 
+.navbar .navbar-nav > li.icon > a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	margin-right: 5px;
+}
+
+@media (max-width: 1050px) {
+	ul.nav.social {
+		display: none;
+	}
+}
+
 .nav > li > a:hover,
 .nav > li > a:focus,
 .navbar .navbar-nav > li > a:hover,
@@ -79,6 +93,10 @@ a:hover, a:focus {
 	color: rgb(170, 189, 209);
 	background-color: rgb(37, 41, 46);   /* fallback */
 	background-color: rgba(0, 0, 0, .1);
+}
+
+.navbar-fixed-top {
+	border: 0px;
 }
 
 .navbar .icon-bar {
@@ -103,4 +121,31 @@ a:hover, a:focus {
 	.welcome {
 		top: 100px;
 	}
+}
+
+.indent {
+	padding-left: 30px;
+}
+
+.footer {
+	 color: rgb(170, 189, 209);
+	font-size: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.projects {
+	margin-top: 20px;
+}
+
+.thumbnail,
+.thumbnail .caption {
+	background-color: rgb(74, 84, 92);
+	border: 0px;
+	color: rgb(199, 222, 245);
+}
+
+.thumbnail img:hover {
+	opacity:0.8;
+	filter:alpha(opacity=80);
 }
