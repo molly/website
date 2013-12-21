@@ -170,3 +170,27 @@ ul.nav.navbar-nav.navbar-right {
 	opacity:0.8;
 	filter:alpha(opacity=80);
 }
+
+.navbar > a.blog404 {
+	float: right;
+	display: inline-block;
+	color: rgb(199, 222, 245);
+	padding: 15px 30px;
+	line-height: 20px;
+}
+
+.navbar > a.blog404:hover,
+.navbar > a.blog404:focus {
+	color: rgb(170, 189, 209);
+	background-color: rgb(37, 41, 46);   /* fallback */
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.fourohfour .page > .row {
+	margin-top: 100px;
+}
+
+.fourohfour .navbar-header:after,
+.fourohfour .navbar-header:before {
+	clear: none;
+}
