@@ -99,6 +99,10 @@ ul.nav.navbar-nav.navbar-right {
 	border: 0px;
 }
 
+.no-js .navbar button.navbar-toggle {
+	display: none;
+}
+
 .navbar .icon-bar {
 	background-color: rgb(199, 222, 245);
 }
