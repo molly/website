@@ -99,8 +99,12 @@ ul.nav.navbar-nav.navbar-right {
 	border: 0px;
 }
 
-.no-js .navbar button.navbar-toggle {
+.nav.navbar .navbar-collapse .navbar-right li.blog a {
 	display: none;
+}
+
+.no-js .navbar .navbar-right li.blog a{
+	display: block;
 }
 
 .navbar .icon-bar {
