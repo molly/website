@@ -139,6 +139,12 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 @media (min-width: 992px) {
+	div#home {
+		min-height: 400px;
+	}
+}
+
+@media (min-width: 992px) {
 	.welcome {
 		top: 100px;
 	}
