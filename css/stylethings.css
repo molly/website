@@ -177,14 +177,6 @@ ul.nav.navbar-nav.navbar-right {
 	filter:alpha(opacity=80);
 }
 
-.navbar > a.blog404 {
-	float: right;
-	display: inline-block;
-	color: rgb(199, 222, 245);
-	padding: 15px 30px;
-	line-height: 20px;
-}
-
 .navbar > a.blog404:hover,
 .navbar > a.blog404:focus {
 	color: rgb(170, 189, 209);
@@ -196,7 +188,3 @@ ul.nav.navbar-nav.navbar-right {
 	margin-top: 100px;
 }
 
-.fourohfour .navbar-header:after,
-.fourohfour .navbar-header:before {
-	clear: none;
-}

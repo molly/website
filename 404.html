@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 	<link href="/css/stylethings.css" rel="stylesheet"/>
 	<link href='http://fonts.googleapis.com/css?family=Questrial|Mako|Fauna+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="/images/favicon.ico" />
  </head>
 
@@ -13,9 +14,31 @@
 	<header>
 	<nav class="navbar navbar-fixed-top" role="navigation">
 		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 			<a class="navbar-brand" href="/">Molly White</a>
+			<a class="blog" href="//blog.mollywhite.net">Blog</a>
 		</div>
-		<a class="blog404" href="//blog.mollywhite.net">Blog</a>
+		<div class="collapse navbar-collapse" id="menu">
+			<ul class="nav navbar-nav" id="nav">
+
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/#about">About</a></li>
+				<li><a href="/#projects">Projects</a></li>
+				<li><a href="/#work">Work</a></li>
+				<li><a href="/#contact">Contact</a></li>
+				<li><a href="//blog.mollywhite.net" class="external">Blog</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right social">
+				<li class="icon"><a href="//www.linkedin.com/pub/molly-white/5a/966/982/"><i class="fa fa-linkedin"></i></a></li>
+				<li class="icon"><a href="//github.com/mollywhite"><i class="fa fa-github"></i></a></li>
+				<li class="icon"><a href="//www.twitter.com/molly0x57"><i class="fa fa-twitter"></i></a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
 	</nav>
 	</header>
 
