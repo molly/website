@@ -5,7 +5,6 @@ Code for [www.mollywhite.net](http://www.mollywhite.net), my personal, portfolio
 ## Sources
 
 This website is created with:
-
-* [Skeleton](http://github.com/dhgamache/Skeleton/)
-* [Raphael](http://raphaeljs.com/)
-* Background pattern from [Subtle Patterns](http://subtlepatterns.com/), [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
+* [Bootstrap](http://getbootstrap.com/)
+* [jQuery One Page Nav](https://github.com/davist11/jQuery-One-Page-Nav)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
