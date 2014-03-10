@@ -42,9 +42,22 @@ a:hover, a:focus {
 	font-size: 140%;
 }
 
-.navbar {
+.navbar,
+.navbar .dropdown-menu {
 	background-color: rgb(51, 57, 64);
+}
+
+.navbar {
 	font-size: 130%;
+}
+
+.navbar .dropdown-menu {
+	font-size: 100%;
+	min-width: 145px;
+}
+
+.navbar .dropdown-menu a {
+	color: rgb(199, 222, 245);
 }
 
 .navbar .navbar-brand {
@@ -89,7 +102,9 @@ ul.nav.navbar-nav.navbar-right {
 .nav > li > a:hover,
 .nav > li > a:focus,
 .navbar .navbar-nav > li > a:hover,
-.navbar .navbar-nav > li > a:focus {
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li.dropdown a:hover,
+.navbar .navbar-nav > li.dropdown a:focus {
 	color: rgb(170, 189, 209);
 	background-color: rgb(37, 41, 46);   /* fallback */
 	background-color: rgba(0, 0, 0, .1);
