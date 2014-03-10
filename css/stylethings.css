@@ -165,14 +165,14 @@ ul.nav.navbar-nav.navbar-right {
 	margin-top: 20px;
 }
 
-.thumbnail,
-.thumbnail .caption {
+body.home .thumbnail,
+body.home .thumbnail .caption {
 	background-color: rgb(74, 84, 92);
 	border: 0px;
 	color: rgb(199, 222, 245);
 }
 
-.thumbnail img:hover {
+body.home .thumbnail img:hover {
 	opacity:0.8;
 	filter:alpha(opacity=80);
 }
