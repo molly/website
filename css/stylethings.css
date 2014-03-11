@@ -5,7 +5,7 @@ html {
 
 body {
 	padding-top: 50px;
-	font-family: 'Mako', sans-serif;
+	font-family: 'rosario', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 150%;
 	color: rgb(199, 222, 245);
 }
@@ -15,7 +15,7 @@ body, .page {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Fauna One', serif;
+	font-family: 'copse', Georgia, serif;;
 	color: rgb(13, 201, 170);
 	margin-top: 0px;
 }
@@ -61,7 +61,7 @@ a:hover, a:focus {
 }
 
 .navbar .navbar-brand {
-	font-family: 'Questrial', sans-serif;
+	font-family: 'didact-gothic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 120%;
 	color: rgb(13, 201, 170);
 	background-color: rgb(27, 30, 33);
