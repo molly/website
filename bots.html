@@ -56,7 +56,7 @@
         <ul class="nav navbar-nav navbar-right social">
           <li class="icon"><a href="//www.linkedin.com/pub/molly-white/5a/966/982/"><i class="fa fa-linkedin"></i></a>
           </li>
-          <li class="icon"><a href="//github.com/mollywhite"><i class="fa fa-github"></i></a>
+          <li class="icon"><a href="//github.com/molly"><i class="fa fa-github"></i></a>
           </li>
           <li class="icon"><a href="//www.twitter.com/molly0x57"><i class="fa fa-twitter"></i></a>
           </li>
@@ -84,7 +84,7 @@
     <div class="container">
       <div class="row">
         <h2><a href="https://twitter.com/cyberprefixer">CyberPrefixer</a></h2>
-        <h4><a href="https://github.com/mollywhite/CyberPrefixer">Source</a></h4>
+        <h4><a href="https://github.com/molly/CyberPrefixer">Source</a></h4>
         <p>CyberPrefixer scrapes news headlines from the
           <a href="https://news.google.com/">Google News</a> RSS feed, and attempts to find headlines that are complete, short enough to use in a tweet, and relatively inoffensive. It then uses
           <a href="https://pypi.python.org/pypi/topia.termextract/">topia.termextract</a>
@@ -110,7 +110,7 @@
     <div class="container">
       <div class="row">
         <h2><a href="https://twitter.com/SubstitutionBot">SubstitutionBot</a></h2>
-        <h4><a href="https://github.com/mollywhite/SubstitutionBot">Source</a></h4>
+        <h4><a href="https://github.com/molly/SubstitutionBot">Source</a></h4>
         <p>SubstitutionBot was suggested to me by <a href="http://jwg.io/">Jonathan Goodwin</a>, who messaged me to say "Please make a twitter bot for xkcd #1288 I would be so happy." I suggested that maybe it should be combined with xkcd #1322, and set to
           work.</p>
       </div>
@@ -140,7 +140,7 @@
       </div>
       <div class="row">
         <p>SubstitutionBot reuses much of the same code as CyberPrefixer. It has the same
-          <a href="https://github.com/mollywhite/CyberPrefixer/blob/master/offensive.py">
+          <a href="https://github.com/molly/CyberPrefixer/blob/master/offensive.py">
                     morbid regular expression</a>, and performs the same checks on the length and format of the headline itself. However, because SubstitutionBot needs a larger volume of headlines than CyberPrefixer (because relatively few headlines
           contain words that will be substituted), I use <a href="http://www.theguardian.com/us"><i>The Guardian's</i></a>
           API to retrieve headlines. Once a suitable headline is found, appropriate words are substituted using a simple dictionary lookup.</p>
@@ -163,7 +163,7 @@
     <div class="container">
       <div class="row">
         <h2><a href="https://twitter.com/misheardly">misheardly</a></h2>
-        <h4><a href="https://github.com/mollywhite/misheardly">Source</a></h4>
+        <h4><a href="https://github.com/molly/misheardly">Source</a></h4>
         <p>misheardly uses the <a href="http://www.last.fm/api">last.fm API</a> to find popular songs, then scrapes the lyrics from a lyrics website. It attempts to find the chorus of the song by finding the most frequently-repeated block of lyrics, then takes
           a snippet of those that's short enough to tweet. Using the
           <a href="http://rhymebrain.com/api.html">RhymeBrain API</a>, it finds the least frequently-used word in the snippet (to avoid rhyming words like "the"). It then hits the RhymeBrain API again to find a rhyming word that's not terribly unusual
