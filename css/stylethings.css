@@ -133,6 +133,11 @@ a:hover, a:focus {
 	background-color: rgb(35, 39, 43);
 }
 
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: rgb(35, 39, 43);
+  border-color: rgb(35, 39, 43);
+}
+
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
 	color: rgb(11, 163, 138);
