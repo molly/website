@@ -275,3 +275,8 @@ body.home .thumbnail img:hover {
 .fourohfour .page > .row {
 	margin-top: 100px;
 }
+
+div.container > img {
+	padding: 20px 0;
+}
+
