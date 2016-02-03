@@ -231,7 +231,12 @@ ul.nav.navbar-nav.navbar-right {
   font-size: 80%;
 }
 
+.aww-wrapper span {
+  display: block;
+}
+
 #aww img {
+  display: inline-block;
   max-height: 600px;
   margin: 50px auto 5px auto;
 }
