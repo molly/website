@@ -7,26 +7,16 @@ $(document).ready(function() {
       var thumb;
       try {
         thumb = data.data.children[i].data.preview.images[0].source.url;
-      } catch(e) {
+      } catch (e) {
         thumb = data.data.children[i].data.thumbnail;
       }
 
       if (thumb !== "self") {
-        $aww.append(
-          $("<div/>", {class: "aww-wrapper"}).append(
-            $("<a/>", {href: "https://www.reddit.com" + data.data.children[i].data.permalink}).append(
-              $("<img/>",
-                {class: "img-responsive",
-                 src: thumb,
-                 alt: data.data.children[i].data.title}
-              )
-            )
-          )
-          .append(
-            $("<span/>", {html: data.data.children[i].data.title})
-          )
-        );
-      };
+        $aww.append('<div class="aww-wrapper"><a href="https://www.reddit.com' +
+          data.data.children[i].data.permalink + '"><img class="img-responsive" src="' +
+          thumb + '" alt="' + data.data.children[i].data.title +'"/></a><span>' +
+          data.data.children[i].data.title + '"</span></div>');
+      }
     };
   });
 });
