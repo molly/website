@@ -15,7 +15,7 @@ $(document).ready(function() {
         $aww.append('<div class="aww-wrapper"><a href="https://www.reddit.com' +
           data.data.children[i].data.permalink + '"><img class="img-responsive" src="' +
           thumb + '" alt="' + data.data.children[i].data.title +'"/></a><span>' +
-          data.data.children[i].data.title + '"</span></div>');
+          data.data.children[i].data.title + '</span></div>');
       }
     };
   });
