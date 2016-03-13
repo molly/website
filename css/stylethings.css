@@ -219,6 +219,28 @@ ul.nav.navbar-nav.navbar-right {
 	text-align: center;
 }
 
+#rok {
+  text-align: center;
+}
+
+.rok-intro {
+  font-size: 150%;
+}
+
+.aww-wrapper {
+  font-size: 80%;
+}
+
+.aww-wrapper span {
+  display: block;
+}
+
+#aww img {
+  display: inline-block;
+  max-height: 600px;
+  margin: 50px auto 5px auto;
+}
+
 @media (min-width: 992px) {
 	div#home {
 		min-height: 400px;
